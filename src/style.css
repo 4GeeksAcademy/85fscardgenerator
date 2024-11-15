@@ -1,1 +1,30 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+.card {
+  position: relative;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 70px;
+  margin: 40px auto;
+}
+
+body {
+  background-color: aqua;
+}
+#palo {
+  position: absolute;
+  font-size: 15px;
+  top: 5px;
+  right: 5px;
+}
+#palo2 {
+  position: absolute;
+  font-size: 15px;
+  bottom: 5px;
+  left: 5px;
+}
+#num {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
