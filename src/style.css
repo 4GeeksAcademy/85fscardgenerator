@@ -4,8 +4,9 @@
   position: relative;
   border: 1px solid black;
   border-radius: 5px;
-  width: 70px;
+  width: 120px;
   margin: 40px auto;
+  border-radius: 5px;
 }
 
 body {
@@ -13,18 +14,22 @@ body {
 }
 #palo {
   position: absolute;
-  font-size: 15px;
-  top: 5px;
+  font-size: 30px;
+  top: 0px;
   right: 5px;
 }
 #palo2 {
   position: absolute;
-  font-size: 15px;
-  bottom: 5px;
+  font-size: 30px;
+  bottom: 0px;
   left: 5px;
 }
 #num {
   text-align: center;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  font-size: 30px;
+}
+.red {
+  color: red;
 }
